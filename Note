@@ -1,0 +1,27 @@
+ROOT — /index.html
+<nav>
+  <a href="index.html">Home</a>
+  <a href="work/index.html">Work</a>
+  <a href="research/index.html">Research</a>
+  <a href="explorations/index.html">Explorations</a>
+  <a href="music/index.html">Music</a>
+  <a href="about/index.html">About</a>
+</nav>
+📁 LEVEL 1 — /work/index.html (same for research, music, etc.)
+<nav>
+  <a href="../index.html">Home</a>
+  <a href="../work/index.html">Work</a>
+  <a href="../research/index.html">Research</a>
+  <a href="../explorations/index.html">Explorations</a>
+  <a href="../music/index.html">Music</a>
+  <a href="../about/index.html">About</a>
+</nav>
+📄 LEVEL 2 — /work/rabbit-hole/index.html
+<nav>
+  <a href="../../index.html">Home</a>
+  <a href="../../work/index.html">Work</a>
+  <a href="../../research/index.html">Research</a>
+  <a href="../../explorations/index.html">Explorations</a>
+  <a href="../../music/index.html">Music</a>
+  <a href="../../about/index.html">About</a>
+</nav>

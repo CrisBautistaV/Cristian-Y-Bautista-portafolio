@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TinyML device for people with hearing loss</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<nav>
+  <a href="/">Home</a>
+  <a href="/work/">Work</a>
+  <a href="/research/">Research</a>
+  <a href="/explorations/">Explorations</a>
+  <a href="/music/">Music</a>
+  <a href="/about/">About</a>
+</nav>
+
+<main>
+
+  <section class="project-header">
+    <h1>TinyML device for people with hearing loss</h1>
+    <p class="tagline">
+      Edge-based sound recognition with haptic feedback for situational awareness
+    </p>
+  </section>
+
+  <section class="project-intro">
+    <p>
+      A portable TinyML device designed to assist people with hearing impairment
+      by detecting critical environmental sounds and translating them into
+      haptic feedback. The system operates entirely on-device, enabling real-time
+      awareness without reliance on external infrastructure.
+    </p>
+  </section>
+
+  <section class="project-concept">
+    <h2>Motive</h2>
+
+    <p>
+      People with hearing loss may not perceive critical auditory cues in their
+      environment, especially in situations requiring immediate attention.
+      This project explores how embedded machine learning can provide an
+      alternative sensory channel through touch.
+    </p>
+
+    <p>
+      The goal was to create a discreet and portable system capable of identifying
+      relevant sounds and conveying both their presence and direction, enhancing
+      situational awareness in everyday contexts.
+    </p>
+  </section>
+
+  <section class="project-method">
+    <h2>Method</h2>
+
+    <p>
+      The system combines embedded hardware design with optimized machine
+      learning models for execution on resource-constrained devices.
+    </p>
+
+    <ul>
+      <li>Audio acquisition using MEMS microphones</li>
+      <li>Feature extraction via FFT and Mel-frequency representation</li>
+      <li>Convolutional Neural Network (CNN) for sound classification</li>
+      <li>Model optimization for TinyML deployment</li>
+      <li>Direction of Arrival (DOA) estimation</li>
+      <li>Haptic feedback through patterned vibration</li>
+    </ul>
+  </section>
+
+  <section class="project-results">
+    <h2>Results</h2>
+
+    <p>
+      The system in the shape of earphones, successfully identifies four types of emergency sounds:
+      car horn, scream, ambulance siren, and crying baby, providing distinct
+      vibration patterns for each category plus different intensity according to the DOA.
+    </p>
+
+    <p>
+      The model achieves 77.82% classification accuracy with an inference time
+      of approximately 0.08 seconds, fitting within 147 KB of Flash memory and
+      25 KB of RAM, demonstrating feasibility for real-time edge deployment.
+    </p>
+  </section>
+
+  <!-- Add some media general pipeline, photo device -->
+
+  <section class="project-publication">
+    <h2>Publication</h2>
+
+    <p>
+      Bautista-Villalpando, C., Lomas-Barrie, V.  
+      <em>A TinyML device for risk identification for people with hearing loss</em>  
+      Internet of Things, Volume 35, 2026.
+    </p>
+
+    <p>
+      <a href="https://doi.org/10.1016/j.iot.2025.101840">DOI</a>
+    </p>
+  </section>
+
+  <section class="project-links">
+    <h2>Links</h2>
+    <p>
+      <a href="https://data.mendeley.com/datasets/39g2tmxwcf/1">Dataset (Mendeley)</a><br>
+      <a href="https://github.com/CrisBautistaV/SSIES-TinyML-HearingLoss">Repository (see also Explorations)</a>
+    </p>
+  </section>
+
+</main>
+
+
+</body>
+</html>
