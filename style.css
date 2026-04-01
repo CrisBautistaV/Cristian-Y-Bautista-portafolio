@@ -144,3 +144,9 @@ footer {
   max-width: 800px;
   border-radius: 4px;
 }
+
+.media video {
+  width: 50%;
+  height: auto;
+  max-width: 800px; /* Optional: limit the maximum size */
+}
