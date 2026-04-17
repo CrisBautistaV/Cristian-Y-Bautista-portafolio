@@ -136,8 +136,11 @@ footer {
 .media iframe {
   width: 100%;
   max-width: 800px;
-  height: 450px;
+  /*height: 450px !important;  /*Adjust this value to your liking */
+  min-height: 120px !important;
 }
+
+
 
 .media img {
   width: 100%;
